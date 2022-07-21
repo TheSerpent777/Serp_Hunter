@@ -7,7 +7,6 @@ RESET="\033[0m"
 
 if [ "$1" == "" ]
 then
-clear
 echo -e " $RED !!! The_Serpent !!! $RESET"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo
