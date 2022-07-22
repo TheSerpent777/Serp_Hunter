@@ -41,13 +41,9 @@ toilet -f slant -F gay The_Serpent
 echo 
 echo -e "\e[1;34m This Script Has Created by The_Serpent For Finding Sub-Domains. this is only for educational purpose not for to harm any website.\e[1;32m"
 
-
-
-
 info_path=$domain/info
 subdomain_path=$domain/subdomains
 screenshot_path=$domain/screenshots
-
 
 if [ ! -d "$domain" ];then
  	mkdir $domain
@@ -64,7 +60,6 @@ fi
 if [ ! -d "screenshots" ];then
  	mkdir $screenshot_path
 fi
-
 
 echo "-------------------------------------------------"
 echo -e " $RED [1] whois is running.... $RESET" 
@@ -95,7 +90,6 @@ echo "--------------------------------------------------------------------"
 echo -e " ${RED} [6] Taking screenshot please wait.... ${RESET} "
 echo "--------------------------------------------------------------------"
 echo
-wait
 gowitness file -f $subdomain_path/alive.txt -P $screenshot_path/ --no-http
 
 fi
