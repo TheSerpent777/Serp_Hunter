@@ -27,7 +27,7 @@ sudo apt install python3-pip
 sudo apt install subfinder
 sudo apt install assetfinder
 sudo git clone https://github.com/guelfoweb/knock
-sudo go install github.com/sensepost/gowitness@latest
+sudo go install https://github.com/sensepost/gowitness@latest
 sudo apt install httprobe
 echo -e "$RED This Script Was Made By The_Serpent >update.theserpent7777 $RESET"
 echo -e "$RED Requirements Installed.... $RESET"
