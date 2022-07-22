@@ -6,6 +6,11 @@
 
  This Script Has Created by The_Serpent For Finding Sub-Domains. this is only for educational purpose not for to harm any website.
  
+ REQUEMENTS:-
+ Make sure golang are installed.
+ install go lang first .
+ GOlang :- https://github.com/golang/go
+ 
 usage:-
 
 git clone https://github.com/theserpent7777/Serp_Hunter.git
