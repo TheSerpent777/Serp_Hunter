@@ -8,8 +8,11 @@
  
  REQUEMENTS:-
  Make sure golang are installed.
- install go lang first .
+ install go lang first 
+ 
  GOlang :- https://github.com/golang/go
+ 
+ go install github.com/sensepost/gowitness@latest
  
 usage:-
 
