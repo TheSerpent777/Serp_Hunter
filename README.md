@@ -13,6 +13,7 @@
  GOlang :- https://github.com/golang/go
  
  go install github.com/sensepost/gowitness@latest
+ 
  cd /$HOME/go/bin && cp gowitness /usr/local/bin
  
 usage:-
